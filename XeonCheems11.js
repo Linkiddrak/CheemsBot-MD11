@@ -296,7 +296,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
                             title: botname,
                             body: ownername,
                             previewType: "PHOTO",
-                            thumbnail: fs.readFileSync('./XeonMedia/theme/darki.jpg'),
+                            thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
                             sourceUrl: wagc
                         }
                     },
@@ -312,7 +312,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
                         showAdAttribution: true,
                         title: botname,
                         body: ownername,
-                        thumbnail: fs.readFileSync('./XeonMedia/theme/darki.jpg'),
+                        thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
                         sourceUrl: websitex,
                         mediaType: 1,
                         renderLargerThumbnail: true
